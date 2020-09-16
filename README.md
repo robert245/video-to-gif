@@ -13,8 +13,20 @@ Gifsicle can be installed on mac/linux via package manager.  For Windows, downlo
 
 ### Creating a standalone exe file
 Ensure you have cx_freeze installed, as well as all of the above listed dependencies
-`pip install cx_freeze` 
-and run `python setup.py build`
+```shell script
+pip install cx_freeze
+```
+
+and run 
+```shell-script
+python setup.py build
+```
+
+The packaged application will be present within `/build`, and can then be added to the system path,
+allowing the program can be called directly - e.g.
+```shell script
+video-to-gif /path/to/input
+```
 
 ## Usage
 To convert a video to a gif, run the program via python
