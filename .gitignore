@@ -1,4 +1,5 @@
-/video-to-gif.iml
+*.iml
 /.idea/
 /dist/
 /build/
+__pycache__
