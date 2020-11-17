@@ -7,7 +7,7 @@ You will need to install the following
 * Optional: pygifsicle/gifsicle for compression 
 
 You can get all the python dependencies by running
-`pip install imageio imageio-ffmpeg pygifsicle`
+`pip install -r requirements.txt`
 
 Gifsicle can be installed on mac/linux via package manager.  For Windows, download gifsicle via https://eternallybored.org/misc/gifsicle/ and add it to the path.
 
